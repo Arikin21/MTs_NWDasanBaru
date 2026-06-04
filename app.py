@@ -433,4 +433,4 @@ def cetak_poin(siswa_id):
     return render_template('cetak_poin.html', s=siswa, riwayat=riwayat, pelanggaran=total_pelanggaran, prestasi=total_prestasi)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run()
